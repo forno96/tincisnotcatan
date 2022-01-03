@@ -17,7 +17,7 @@ public class Networking {
   public static final String     HEARTBEAT                   = "\"HEARTBEAT\"";
 
   public static final long       ONE_SECOND                  = 1000;
-  public static final long       DISCONNECT_TIMEOUT          = ONE_SECOND * 60;
+  public static final long       DISCONNECT_TIMEOUT          = ONE_SECOND * 60 * 60;
 
   // to be used throughout the Networking package unless conflicts
   // exist with registerTypeAdapter
