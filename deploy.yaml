@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: catan
-        image: localhost:32000/catan
+        image: localhost:32000/tincisnotcatan
         imagePullPolicy: Always
         ports:
         - containerPort: 4567
